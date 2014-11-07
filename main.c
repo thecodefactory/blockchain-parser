@@ -9,11 +9,6 @@
 #include "blockchain.h"
 #include "config.h"
 
-#ifdef USE_MYSQL
-#include "db.h"
-#endif
-
-
 //#define BUF_LEN 384
 #define BUF_LEN (16*8388608)
 
