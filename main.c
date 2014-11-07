@@ -10,7 +10,7 @@
 #include "config.h"
 
 //#define BUF_LEN 384
-#define BUF_LEN (16*8388608)
+#define BUF_LEN (8388608)
 
 #define OP_0           0x00
 #define OP_PUSHDATA1   0x4c
